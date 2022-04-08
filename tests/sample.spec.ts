@@ -1,7 +1,7 @@
-import getLogMessage from "../lib";
+import getLogMessage from '../lib';
 
 describe('sample_test', () => {
-    test('index', () => {
-        expect(getLogMessage()).toBe("hello world");
-    });
-})
+  test('index', () => {
+    expect(getLogMessage()).toBe('hello world');
+  });
+});

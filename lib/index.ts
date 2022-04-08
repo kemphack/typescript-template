@@ -1,3 +1,3 @@
-export default function getLogMessage() {
-    return "hello world";
+export default function getLogMessage(): string {
+  return 'hello world';
 }
